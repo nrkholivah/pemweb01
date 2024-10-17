@@ -28,7 +28,7 @@ header::before {
 }
 
 header h1 {
-    font: size 3.5rem;
+    font-size: 3.5rem;
     margin-bottom: 1rem;
 }
 
@@ -77,10 +77,10 @@ nav {
     margin: 2rem auto;
     padding: 1rem;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.destinaasi {
+.destinasi {
     margin-bottom: 2rem;
     display: flex;
     flex-wrap: wrap;
@@ -89,14 +89,108 @@ nav {
     text-align: center;
 }
 
-.destinaasi h2 {
+.destinasi h2 {
     font-size: 24px;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
     width: 100%;
 }
 
-.destinaasi-item img {
+.destinasi-item {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    margin: 0.5rem;
+    max-width: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 1rem;
+    border-radius: 5px;
+    flex: 1;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.destinasi-item img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
+}
+
+.destinasi-item:hover {
+    transform: scale(1.1);
+}
+
+.destinasi-item h3 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.destinasi-item p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.destinasi-item button {
+    background-color: #ffcc00;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.destinasi-item button:hover {
+    background-color: #555;
+    color: white;
+}
+
+.paket-wisata {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.paket-wisata h2 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.paket-wisata-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.paket-wisata-item {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    flex: 1;
+    width: calc(33.33% - 1rem);
+    margin-bottom: 1rem;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    max-width: calc(33.33% - 1rem);
+    height: auto;
+}
+
+.paket-wisata-item:hover {
+    transform: scale(1.1);
+}
+
+.paket-wisata-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.paket-wisata-item button {
+    background-color: #ffcc00;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
 }
