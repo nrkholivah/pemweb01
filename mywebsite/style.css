@@ -289,18 +289,25 @@ header .section__container {
 
 .display__card {
     gap: 0;
+    gap: 0.5rem;
+    gap: 1rem;
 }
 
 .display__card i {
     font-size: 1.75rem;
+    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .display__card h4 {
     font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .display__card p {
     font-size: 0.7rem;
+    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 .banner__container .section__container {
@@ -311,32 +318,4 @@ header .section__container {
     align-items: flex-end;
     text-align: right;
     max-width: 800px;
-}
-
-.display__card {
-    gap: 0.5rem;
-}
-
-.display__card i {
-    font-size: 2.5rem;
-}
-
-.display__card p {
-    font-size: 0.8rem;
-}
-
-.display__card {
-    gap: 1rem;
-}
-
-.display__card i {
-    font-size: 3rem;
-}
-
-.display__card h4 {
-    font-size: 1.5rem;
-}
-
-.display__card p {
-    font-size: 1rem;
 }
