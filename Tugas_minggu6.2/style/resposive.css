@@ -52,6 +52,7 @@
 .nav-active {
   transform: translateX(0);
 }
+
 :root {
   --sectionPadding: 4rem 0;
 }
@@ -59,10 +60,12 @@
 .section-title {
   font-size: 1.6rem;
   margin: 0.6rem 0 2.5rem;
+  font-size: 1.3rem;
 }
 
 .pre-title {
   font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 #hero {
@@ -98,12 +101,4 @@
 
 footer {
   padding: 2rem 0;
-}
-
-.section-title {
-  font-size: 1.3rem;
-}
-
-.pre-title {
-  font-size: 0.7rem;
 }
