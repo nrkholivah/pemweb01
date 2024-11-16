@@ -114,6 +114,6 @@
     echo $jumlahhutanga + $jumlahhutangb;
     echo "<br>";
     ?>
-</body>
+
 
 </html>
