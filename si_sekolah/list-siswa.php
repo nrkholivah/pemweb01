@@ -22,7 +22,7 @@
         </tr>
     <?php 
     include 'koneksi.php';
-        // Misalkan $db adalah koneksi ke database yang sudah dibuat sebelumnya//
+        
         $no=1;
         $data= mysqli_query($koneksi,"select*from data_siswa");
         while($d = mysqli_fetch_array($data)){
